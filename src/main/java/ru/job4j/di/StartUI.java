@@ -7,7 +7,7 @@ public class StartUI {
     private ConsoleInput consoleInput;
 
     public StartUI(Store store) {
-        this.store =store;
+        this.store = store;
     }
 
     public void add(String value) {

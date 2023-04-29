@@ -25,7 +25,7 @@ public class Context {
         }
         try {
             els.put(cl.getCanonicalName(), con.newInstance(args.toArray()));
-        } catch(Exception e) {
+        } catch (Exception e) {
             throw new IllegalStateException("Cannot create an instance of: " + cl.getCanonicalName(), e);
         }
     }
